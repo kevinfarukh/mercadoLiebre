@@ -67,6 +67,9 @@ ul li a{
     margin-bottom: 3px;
 
 }
+.baner{
+    margin-top: 0 ;
+}
 .producto-flex:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
@@ -172,9 +175,6 @@ footer p {
     .burger-menu{
         display: none;
     }
-    .baner{
-        margin-top: 285px;
-    }
     .left-right-bar{
         padding-left: 20px;
     }
@@ -196,6 +196,9 @@ footer p {
     .descripcion-bar{
         display: block;
         
+    }
+    header{
+        position: fixed;
     }
 
     ul{
