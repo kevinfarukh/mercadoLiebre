@@ -23,6 +23,6 @@ app.get("/login",(req,res)=>{
 app.post("/",(req,res)=>{
     res.sendFile(path.resolve("./views/home.html"))
 })
-app.listen(3010, ()=>{
+app.listen(process.env.PORT || 3010, ()=>{
     console.log("servidor corriendo en el puerto 3010") 
 })
