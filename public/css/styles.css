@@ -105,11 +105,14 @@ main{
     margin: 0 auto;
 }
 
-.descripcion-bar{
+.producto-flex .descripcion-bar{
     display: none;
     border-top: solid 1px #ebebeb;
     padding:15px;
     background-color: white;
+}
+.producto-flex:hover .descripcion-bar{
+    display: block;
 }
 .fa-truck{
     padding: 3px;
